@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Anzuplay | Official Page</title>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Rubik', sans-serif;
+      background: linear-gradient(135deg, #0f0f0f, #1a1a1a);
+      color: #fff;
+      text-align: center;
+      overflow-x: hidden;
+    }
+
+    header {
+      background: linear-gradient(to bottom, #ff5c8d, transparent);
+      height: 300px;
+      background-image: url('https://yt3.googleusercontent.com/I2WBB8sqAGBl6VPu3U6N3zBpvLaFu3H_rubCxctMQT-kbCv9WT_WZpBMpVo0ZZcbmK9KZC8bZQ=w1024-fcrop64=1,00005a57ffffa5a8-nd');
+      background-size: cover;
+      background-position: center;
+      animation: fadeIn 2s ease-in-out;
+    }
+
+    h1 {
+      margin-top: 1rem;
+      font-size: 3rem;
+      color: #ff5c8d;
+      text-shadow: 0 0 10px #ff5c8d;
+      animation: pulse 2s infinite;
+    }
+
+    @keyframes pulse {
+      0%, 100% { text-shadow: 0 0 10px #ff5c8d; }
+      50% { text-shadow: 0 0 20px #ff5c8d; }
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+
+    p {
+      font-size: 1.1rem;
+      max-width: 800px;
+      margin: 0.5rem auto 2rem;
+      color: #ccc;
+    }
+
+    .buttons {
+      display: flex;
+      gap: 1rem;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-bottom: 2rem;
+    }
+
+    .btn {
+      background: #ff5c8d;
+      color: white;
+      padding: 0.75rem 1.5rem;
+      border: none;
+      border-radius: 10px;
+      text-decoration: none;
+      font-weight: bold;
+      box-shadow: 0 0 12px #ff5c8d;
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .btn:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 20px #ff5c8d;
+    }
+
+    .about-section, .games-section {
+      max-width: 1000px;
+      padding: 2rem;
+      background: #1a1a1a;
+      border-radius: 20px;
+      margin: 2rem auto;
+      box-shadow: 0 0 15px rgba(255, 92, 141, 0.2);
+    }
+
+    .about-section h2, .games-section h2 {
+      color: #ff5c8d;
+      font-size: 2.2rem;
+      margin-bottom: 1rem;
+      text-shadow: 0 0 10px #ff5c8d;
+    }
+
+    .social-icons {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      margin-top: 2rem;
+    }
+
+    .social-icons a img {
+      width: 40px;
+      height: 40px;
+      transition: transform 0.3s ease;
+      filter: drop-shadow(0 0 6px #ff5c8d);
+    }
+
+    .social-icons a img:hover {
+      transform: scale(1.15);
+    }
+
+    .games-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+      gap: 2rem;
+      margin-top: 2rem;
+    }
+
+    .game {
+      background: #2a2a2a;
+      padding: 1rem;
+      border-radius: 15px;
+      box-shadow: 0 0 10px rgba(255, 92, 141, 0.2);
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .game:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 0 20px rgba(255, 92, 141, 0.4);
+    }
+
+    .game img {
+      width: 50px;
+      height: 50px;
+      margin-bottom: 0.5rem;
+    }
+
+    .game span {
+      font-size: 0.9rem;
+      color: #ccc;
+    }
+
+    .video-embed {
+      margin-top: 3rem;
+    }
+
+    footer {
+      margin-top: 3rem;
+      padding: 1rem;
+      font-size: 0.9rem;
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+  <header></header>
+
+  <main>
+    <h1>Welcome to Anzuplay</h1>
+    <p>Gaming. Creativity. Chaos. Join the Anzu squad on YouTube, Instagram, and Discord!</p>
+
+    <div class="buttons">
+      <a class="btn" href="https://www.youtube.com/@Anzuplay" target="_blank">🎮 YouTube</a>
+      <a class="btn" href="https://www.instagram.com/anzu_plays/" target="_blank">📸 Instagram</a>
+      <a class="btn" href="https://discord.gg/teRJnc9U" target="_blank">💬 Discord</a>
+    </div>
+
+    <div class="about-section">
+      <h2>About Me</h2>
+      <p>Hi, I'm <strong>AnzuPlays</strong> aka <strong>Shivansh</strong>, your fellow Indian content creator from Rajasthan. Welcome to my channel!</p>
+      <p>I am a 14-year-old Valorant player who specializes in playing <strong>Jett</strong>. Currently, I’m at the <strong>Immortal</strong> rank and on the path to becoming a professional esports player. Join me as I live stream my ranked games and showcase my skills in Valorant. Don’t forget to like, comment, and subscribe to support my journey towards becoming the best in the game.</p>
+      <p>You can find quality games, content, tutorials, and analysis/reviews on my channel. My goal is to be one of the best and create a prime-caliber streaming atmosphere where I can represent India internationally through my streams, gameplay, and individual performance.</p>
+
+      <div class="social-icons">
+        <a href="https://discord.gg/teRJnc9U" target="_blank" title="Join my Discord">
+          <img src="https://cdn-icons-png.flaticon.com/512/5968/5968756.png" alt="Discord">
+        </a>
+        <a href="https://www.instagram.com/anzu_plays/" target="_blank" title="Follow me on Instagram">
+          <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram">
+        </a>
+        <a href="https://www.youtube.com/@Anzuplay" target="_blank" title="Subscribe on YouTube">
+          <img src="https://cdn-icons-png.flaticon.com/512/1384/1384060.png" alt="YouTube">
+        </a>
+      </div>
+    </div>
+
+    <div class="games-section">
+      <h2>Games I Play</h2>
+      <div class="games-grid">
+        <div class="game">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Grand_Theft_Auto_V_Logo.svg/512px-Grand_Theft_Auto_V_Logo.svg.png" alt="GTA 5">
+          <span>GTA 5</span>
+        </div>
+        <div class="game">
+          <img src="https://upload.wikimedia.org/wikipedia/en/0/07/Valorant_logo.png" alt="Valorant">
+          <span>Valorant</span>
+        </div>
+        <div class="game">
+          <img src="https://upload.wikimedia.org/wikipedia/en/5/51/Minecraft_cover.png" alt="Minecraft">
+          <span>Minecraft</span>
+        </div>
+        <div class="game">
+          <img src="https://cdn.akamai.steamstatic.com/steam/apps/1509960/header.jpg" alt="Pico Park">
+          <span>Pico Park</span>
+        </div>
+        <div class="game">
+          <img src="https://cdn-icons-png.flaticon.com/512/3468/3468372.png" alt="Repo">
+          <span>Repo</span>
+        </div>
+        <div class="game">
+          <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/2483300/header.jpg" alt="Chained Together">
+          <span>Chained Together</span>
+        </div>
+        <div class="game">
+          <img src="https://upload.wikimedia.org/wikipedia/en/1/1e/Dirt_5_cover_art.jpg" alt="Dirt">
+          <span>Dirt</span>
+        </div>
+        <div class="game">
+          <img src="https://cdn-icons-png.flaticon.com/512/9490/9490435.png" alt="More">
+          <span>And more...</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="video-embed">
+      <h2>Latest YouTube Short</h2>
+      <iframe width="315" height="560" src="https://www.youtube.com/embed/6MWdLAKmjWc" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+    </div>
+<link rel="stylesheet" href="style.css">
+  </main>
+
+  <footer>
+    © 2025 Anzuplay. All rights reserved.
+  </footer>
+</body>
+</html>
